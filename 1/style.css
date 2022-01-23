@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all{
+    width: 100%;
+    height: 937px;
+    background-color: rgb(104, 18, 202);
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.box{
+    width: 50%;
+    height: 30%;
+    background-color: rgb(188, 241, 175);
+}
+.form, .form2{
+    width: 100%;
+    height: 13%;
+    display: flex;
+    justify-content: space-between;
+}
+.cl{
+    width: 30%;
+}
+.text0{
+    width: 100%;
+}
