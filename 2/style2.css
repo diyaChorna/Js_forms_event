@@ -1,0 +1,58 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+.all, .image, .name, .email, .work, .cl2, .sprate{
+      width: 100%;
+}
+.all{
+      height: 937px;
+      background-color: rgb(104, 18, 202);
+      display: flex;
+      justify-content: center;
+      padding-top: 100px;
+}
+.box2{
+      width: 30%;
+      height: 70%;
+      background-color: rgb(188, 241, 175);
+      border-radius: 30px;
+      flex-wrap: wrap;
+}
+.image{
+      height: 30%;
+      background-color: rgb(24, 236, 148);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.kolo{
+      width: 6.5%;
+      height: 15%;
+      border-radius: 50%;
+      border: 1px solid #000;
+      position: absolute;
+      top: 18%;
+      background-image: url(https://pbs.twimg.com/profile_images/778882868000935936/4jg4K5ot_400x400.jpg);
+}
+.name, .email, .work, .form2{
+      height: 13.7%;
+      border: 1px solid #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.form2f{
+      width: 20%;
+      height: 50%;
+      border-radius: 10px;
+}
+.cl2{
+      width: 100%;
+      height: 100%;
+      background-color: rgb(24, 236, 148);
+}
+.sprate{
+      height: 15%;
+}
